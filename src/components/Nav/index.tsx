@@ -33,7 +33,6 @@ const NavLinks = styled.li``;
 const ButtonContainer = styled.div`
   ${tw`flex items-center gap-8`}
 `;
-const NavContentFirstContainer = styled.div``;
 
 const MobileMenu = styled.ul`
   ${tw`list-none flex flex-col gap-8 text-lg`}
