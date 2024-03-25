@@ -15,6 +15,12 @@ export default {
         progressGreen: "#30B700",
         progressBackground: "#EEE",
       },
+      backgroundImage: {
+        hero: "linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url('/src/assets/c.jpg')",
+        hero_a: "url('/src/assets/a.jpg')",
+        hero_b: "url('/src/assets/b.jpg')",
+        hero_c: "url('/src/assets/c.jpg')",
+      },
     },
   },
   plugins: [],

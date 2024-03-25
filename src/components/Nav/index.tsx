@@ -15,7 +15,7 @@ const Nav = styled.nav`
   ${tw`sticky top-0 z-20`}
 `;
 const NavHeader = styled.header<{ scrollNavbar?: boolean }>`
-  ${tw` bg-blue-600 shadow shadow-blue-500/40 md:shadow-indigo-500/40  text-sm  font-poppins transition-all ease-in-out duration-500`}
+  ${tw` bg-[#fcf9f6] font-poppins transition-all ease-in-out duration-500`}
   ${({ scrollNavbar }) => scrollNavbar && tw`blur-[0px]`}
 `;
 
