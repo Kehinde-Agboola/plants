@@ -16,7 +16,7 @@ export default {
         progressBackground: "#EEE",
       },
       backgroundImage: {
-        hero: "linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url('/src/assets/c.jpg')",
+        hero: "linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url('/src/assets/plant11.png')",
         hero_a: "url('/src/assets/a.jpg')",
         hero_b: "url('/src/assets/b.jpg')",
         hero_c: "url('/src/assets/c.jpg')",
