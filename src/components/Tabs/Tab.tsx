@@ -1,5 +1,6 @@
 type Props = {
   title: string;
+  children: React.ReactNode;
 };
 
 const Tab: React.FC<Props> = ({ children }) => {

@@ -1,14 +1,18 @@
 import Tabs from "../../Tabs/Tabs";
 import Tab from "../../Tabs/Tab";
-z;
+// import styled from "styled-components";
+// import tw from "twin.macro";
+
 export const CategoriesTab = () => {
   return (
-    <div>
+    <>
       <Tabs>
-        <Tab title="Lemon">lemon works</Tab>
-        <Tab title="Strawberry"> Strawberry works</Tab>
-        <Tab title="Pear">Pear works</Tab>
+        <Tab title="Indoor-Plants">Indoor plants works</Tab>
+        <Tab title="Outdoor-Plants"> Outdoor plants works</Tab>
+        <Tab title="Small-plants">Small plants works</Tab>
+        <Tab title="Office-Plants">Office-plants-works</Tab>
+        <Tab title="Accessories">Accessories works</Tab>
       </Tabs>
-    </div>
+    </>
   );
 };

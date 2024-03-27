@@ -7,7 +7,9 @@ export const Hero = () => {
           Create the Environment where your Plants are Happiest
         </h1>
       </div>
-      <CategoriesTab />
+      <div className="bg-[#fdf9f3]">
+        <CategoriesTab />
+      </div>
     </>
   );
 };

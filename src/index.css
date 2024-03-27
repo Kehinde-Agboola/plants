@@ -7,7 +7,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+body {
+  background: #fdf9f3;
+}
 .progress-bar {
   position: fixed;
   top: 0;
@@ -88,4 +90,36 @@
 
 .react-player {
   width: 100% !important;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  overflow: auto;
+}
+
+.item {
+  flex: 1 1 200px;
+  min-width: 200px;
+  background-color: #0db994;
+  /* #099A7B */
+  padding: 20px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  text-align: center;
+}
+.item:hover {
+  background-color: #099a7b;
+}
+@media screen and (max-width: 600px) {
+  .container {
+    margin: 0 -3px;
+    display: flex;
+    scrollbar-width: none;
+    scroll-padding-right: 50px;
+  }
+  .item {
+    scroll-snap-align: start;
+  }
 }
