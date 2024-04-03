@@ -90,7 +90,7 @@ export const MobileIcon = styled.div`
 export const MobileContainer = styled.div<{
   click?: boolean;
 }>`
-  ${tw`flex flex-col items-center justify-center gap-8 lg:hidden  w-full md:w-1/2  transition-all ease-in-out duration-500 shadow-2xl text-purple bg-white absolute h-screen overflow-y-hidden`};
+  ${tw`flex flex-col items-center justify-center gap-8 lg:hidden  w-full md:w-1/2  transition-all ease-in-out duration-500 shadow-2xl text-black bg-white absolute h-screen overflow-y-hidden`};
   left: ${({ click }) => (click ? "0" : "-100%")};
 `;
 
@@ -138,7 +138,7 @@ export const Navigation = () => {
                 <TiShoppingCart size={25} />
                 <Button
                   children="Account"
-                  className="bg-blue text-purple text-sm px-6 py-[10px] hover:opacity-80"
+                  className="bg-blue text-balck text-sm px-6 py-[10px] hover:opacity-80"
                 />
               </ButtonContainer>
 
