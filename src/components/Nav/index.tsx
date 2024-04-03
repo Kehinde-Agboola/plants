@@ -135,7 +135,25 @@ export const Navigation = () => {
               {/* </NavContentFirstContainer> */}
 
               <ButtonContainer>
-                <TiShoppingCart size={25} />
+                <div className="relative cursor-pointer">
+                  <TiShoppingCart size={30} />
+                  <div
+                    className="bg-red-300 flex justify-center items-center rounded-xl"
+                    style={{
+                      color: "white",
+                      width: "1.5rem",
+                      height: "1.5rem",
+                      position: "absolute",
+                      bottom: 0,
+                      right: 0,
+                      top: -15,
+                      transform: "translate(25%, 25%)",
+                    }}
+                  >
+                    3
+                  </div>
+                </div>
+
                 <Button
                   children="Account"
                   className="bg-blue text-balck text-sm px-6 py-[10px] hover:opacity-80"
