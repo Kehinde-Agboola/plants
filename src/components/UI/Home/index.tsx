@@ -1,4 +1,8 @@
 import { CategoriesTab } from "./CategoriesTab";
+import { Store } from "../../store/Store";
+import { Container } from "../../shared";
+import tw from "twin.macro";
+import styled from "styled-components";
 export const Hero = () => {
   return (
     <>
@@ -8,7 +12,10 @@ export const Hero = () => {
         </h1>
       </div>
       <div className="bg-[#fdf9f3]">
-        <CategoriesTab />
+        <Container>
+          <h1>Top Categories</h1>
+        </Container>
+        <Store />
       </div>
     </>
   );

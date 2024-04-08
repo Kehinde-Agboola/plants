@@ -1,13 +1,19 @@
-import storeItem from "./../constants/data.json";
-import { Products } from "./products";
-export const store = () => {
-  return (
-    <div>
-      {storeItem.map((item) => (
-        <div key={item.id}>
-          <Products {...item} />
-        </div>
+import { Box } from "@chakra-ui/react";
+import { ProductCard } from "./ProductCard";
+import { products } from "./_data";
+import { ProductGrid } from "./ProductGrid";
+
+export const Store = () => (
+  <Box
+    maxW="7xl"
+    mx="auto"
+    px={{ base: "4", md: "8", lg: "12" }}
+    py={{ base: "6", md: "8", lg: "12" }}
+  >
+    <ProductGrid>
+      {products.map((product) => (
+        <ProductCard key={product.id} product={product} />
       ))}
-    </div>
-  );
-};
+    </ProductGrid>
+  </Box>
+);
