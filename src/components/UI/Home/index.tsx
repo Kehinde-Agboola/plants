@@ -1,4 +1,4 @@
-import { Store } from "../../store/Store";
+import { Store } from "../../Store/Store";
 import { Container } from "../../shared";
 import tw from "twin.macro";
 import styled from "styled-components";

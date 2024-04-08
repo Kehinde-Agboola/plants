@@ -4,7 +4,6 @@ import {
   Button,
   HStack,
   Image,
-  Link,
   Skeleton,
   Stack,
   StackProps,
@@ -15,7 +14,6 @@ import { Rating } from "./Rating";
 import { FavouriteButton } from "./FavouriteButton";
 import { PriceTag } from "./PriceTag";
 import { Product } from "./_data";
-
 interface Props {
   product: Product;
   rootProps?: StackProps;
@@ -23,7 +21,7 @@ interface Props {
 
 export const ProductCard = (props: Props) => {
   const { product, rootProps } = props;
-  const { name, imageUrl, price, salePrice, rating, flag } = product;
+  const { name, imageUrl, price, salePrice, rating } = product;
   return (
     <div className="">
       <Stack spacing={{ base: "4", md: "5" }} {...rootProps}>
