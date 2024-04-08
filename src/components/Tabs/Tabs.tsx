@@ -1,8 +1,6 @@
 import React, { ReactElement, useState } from "react";
 import TabTitle from "./TabTitle";
 import { Container } from "../shared";
-// import styled from "styled-components";
-// import tw from "twin.macro";
 type Props = {
   children: ReactElement[];
 };
