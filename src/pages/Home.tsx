@@ -8,7 +8,6 @@ export const Home = () => {
   return (
     <>
       <Hero />
-
       <StyledApp>tabs</StyledApp>
     </>
   );
