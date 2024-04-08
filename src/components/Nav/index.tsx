@@ -1,7 +1,9 @@
 import { useState } from "react";
 import styled from "styled-components";
 import tw from "twin.macro";
-import { TiShoppingCart } from "react-icons/ti";
+import { BsBag } from "react-icons/bs";
+// import { LiaUser } from "react-icons/lia";
+import { MdFavoriteBorder } from "react-icons/md";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { NavLink, Link as RouterLink } from "react-router-dom";
 import { Link, animateScroll } from "react-scroll";
@@ -20,7 +22,7 @@ const NavHeader = styled.header<{ scrollNavbar?: boolean }>`
 `;
 
 const NavContent = styled.div`
-  ${tw`flex items-center  justify-between lg:px-0 py-5`}
+  ${tw`flex items-center flex-row-reverse md:flex-row  justify-between lg:px-0 py-5`}
 `;
 const Logo = styled.img`
   ${tw`cursor-pointer`}
@@ -136,28 +138,27 @@ export const Navigation = () => {
 
               <ButtonContainer>
                 <div className="relative cursor-pointer">
-                  <TiShoppingCart size={30} />
+                  <BsBag size={30} />
                   <div
-                    className="bg-red-300 flex justify-center items-center rounded-xl"
+                    className="flex justify-center items-center rounded-xl"
                     style={{
-                      color: "white",
                       width: "1.5rem",
                       height: "1.5rem",
                       position: "absolute",
                       bottom: 0,
                       right: 0,
-                      top: -15,
-                      transform: "translate(25%, 25%)",
+                      transform: "translate(-10%, 3%)",
                     }}
                   >
                     3
                   </div>
                 </div>
-
-                <Button
-                  children="Account"
-                  className="bg-blue text-balck text-sm px-6 py-[10px] hover:opacity-80"
-                />
+                <div className="cursor-pointer">
+                  <MdFavoriteBorder size={30} />
+                </div>
+                {/* <div className="cursor-pointer">
+                  <LiaUser size={30} />
+                </div> */}
               </ButtonContainer>
 
               <MobileIcon onClick={handleClick}>
