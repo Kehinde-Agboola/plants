@@ -12,7 +12,6 @@ const Tabs: React.FC<Props> = ({ children }) => {
 
   return (
     <Container>
-      <h1 className="text-2xl py-10">Top Categories:</h1>
       <ul className="container  text-white">
         {children.map((item, index) => (
           <div className="item">
