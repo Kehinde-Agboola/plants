@@ -11,15 +11,6 @@
   list-style-type: none;
 }
 
-.player-wrapper {
-  position: relative;
-  /* 720 / 1280 = 0.5625 */
-}
-
-.react-player {
-  width: 100% !important;
-}
-
 .container {
   display: flex;
   justify-content: space-between;
@@ -49,14 +40,4 @@
   .item {
     scroll-snap-align: start;
   }
-}
-
-.swiper {
-  width: 1000px;
-}
-.swiper-slide {
-  /* height: 900px; */
-  display: flex;
-  gap: 2rem;
-  text-align: center;
 }
