@@ -38,7 +38,7 @@ export const Layout = () => {
   return (
     <LayoutContainer>
       <Navigation />
-      <motion.div className="progress-bar mt-20" style={{ scaleX }} />
+      <motion.div className="progress-bar" style={{ scaleX }} />
       <Container click={click} onClick={() => setClick(false)}>
         <Outlet />
       </Container>
