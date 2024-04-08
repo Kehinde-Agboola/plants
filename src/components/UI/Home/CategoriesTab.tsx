@@ -9,7 +9,6 @@ export const CategoriesTab = () => {
         <Tab title="Indoor-Plants">
           <p>Indoor Plants Works</p>
           <Gallary />
-          {/* <Store /> */}
         </Tab>
         <Tab title="Outdoor-Plants">
           <p>Outdoor Plants Works</p>
