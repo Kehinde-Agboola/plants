@@ -38,7 +38,7 @@ export const products = [
     currency: "USD",
     price: 199,
     flag: "new",
-    imageUrl: "/assets/plants/jj.jpg",
+    imageUrl: "./src/assets/plant4.png",
     rating: 4,
     ratingCount: 1,
     description:
@@ -52,7 +52,7 @@ export const products = [
     price: 199,
     salePrice: 179.99,
     flag: "on-sale",
-    imageUrl: "./src/assets/plants/jj.jpg",
+    imageUrl: "./src/assets/plant4.png",
     rating: 4,
     ratingCount: 12,
     description:
