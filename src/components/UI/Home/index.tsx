@@ -20,8 +20,8 @@ export const Hero = () => {
       <div className="bg-[#fdf9f3]">
         <Container>
           <h1 className="pt-10 text-2xl">Top Categories:</h1>
-          <Product />
         </Container>
+        <Product />
       </div>
     </>
   );
