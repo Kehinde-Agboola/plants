@@ -22,7 +22,7 @@ export function formatPrice(
   value: number,
   opts: { locale?: string; currency?: string } = {}
 ) {
-  const { locale = "NG", currency = "₦" } = opts;
+  const { locale = "en-US", currency = "USD" } = opts;
   const formatter = new Intl.NumberFormat(locale, {
     currency,
     style: "currency",

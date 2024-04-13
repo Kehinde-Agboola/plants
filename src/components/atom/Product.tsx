@@ -3,7 +3,7 @@ import { ProductCard } from "./ProductCard";
 import { products } from "./_data";
 import { ProductGrid } from "./ProductGrid";
 
-export const Store = () => (
+export const Product = () => (
   <Box
     maxW="7xl"
     mx="auto"
