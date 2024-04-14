@@ -1,7 +1,7 @@
 import { Container } from "../../shared";
 import tw from "twin.macro";
 import styled from "styled-components";
-import { Product } from "../../atom/Product";
+
 const HeroBanner = styled.div`
   ${tw`bg-hero  h-[400px]  bg-no-repeat bg-cover bg-center object-center`}
 `;
@@ -21,7 +21,6 @@ export const Hero = () => {
         <Container>
           <h1 className="pt-10 text-2xl">Top Categories:</h1>
         </Container>
-        <Product />
       </div>
     </>
   );
