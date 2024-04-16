@@ -64,13 +64,6 @@ export const ProductCard = (props: Props) => {
         <Button colorScheme="blue" width="full">
           Add to cart
         </Button>
-        <Link
-          textDecoration="underline"
-          fontWeight="medium"
-          color={useColorModeValue("gray.600", "gray.400")}
-        >
-          Quick shop
-        </Link>
       </Stack>
     </Stack>
   );
