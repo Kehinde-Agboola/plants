@@ -4,6 +4,9 @@ import tw from "twin.macro";
 export const Container = styled.div`
   ${tw`max-w-6xl mx-auto px-7 xl:px-0 relative`}
 `;
+export const Card = styled.div`
+  ${tw`max-w-7xl mx-auto px-7 xl:px-0`}
+`;
 
 export const Contain = styled.div`
   ${tw`pl-32`}
